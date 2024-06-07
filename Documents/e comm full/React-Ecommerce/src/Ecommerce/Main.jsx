@@ -1,9 +1,8 @@
 import {useState, useEffect, createContext, useContext } from "react";
-import { ecomContext } from "./Home";
 import { EcomContext } from "./Home";
 
 function Main() {
-  const { cart, addToCart } = useContext(ecomContext);
+  //const { cart, addToCart } = useContext(ecomContext);
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
